@@ -25,7 +25,7 @@
 <path d="M554.923 380L671.539 496.615" stroke="#F0F1F9"/>
 <path d="M467.462 467.462L584.077 584.077" stroke="#F0F1F9"/>
 <path d="M671.539 496.615L584.077 584.077" stroke="url(#paint4_linear_4_64)"/>
-<path d="M554.923 380L467.462 467.462" stroke="#F0F1F9"/>
+<path d="M554.923 380L467.462 467.461" stroke="#F0F1F9"/>
 <path d="M380.001 380L292.539 292.538" stroke="#F0F1F9"/>
 <path d="M467.462 292.538L380 205.077" stroke="#F0F1F9"/>
 <path d="M292.539 292.538L380 205.077" stroke="#F0F1F9"/>
@@ -49,7 +49,7 @@
 <path d="M175.923 350.846L292.539 467.462" stroke="#F0F1F9"/>
 <path d="M263.385 263.385L175.923 350.846" stroke="#F0F1F9"/>
 <path d="M292.539 467.462L380 554.923" stroke="#F0F1F9"/>
-<path d="M205.077 554.923L292.539 642.385" stroke="#F0F1F9"/>
+<path d="M205.077 554.923L292.538 642.385" stroke="#F0F1F9"/>
 <path d="M380 554.923L292.538 642.385" stroke="#F0F1F9"/>
 <path d="M380 554.923L496.615 671.539" stroke="url(#paint8_linear_4_64)"/>
 <path d="M292.539 642.385L409.154 759" stroke="url(#paint9_linear_4_64)"/>
@@ -58,13 +58,13 @@
 <path d="M205.077 554.923L117.615 467.462" stroke="#F0F1F9"/>
 <path d="M292.539 467.462L205.077 380" stroke="#F0F1F9"/>
 <path d="M117.615 467.462L205.077 380" stroke="#F0F1F9"/>
-<path d="M117.615 467.462L1.00008 350.846" stroke="#F0F1F9"/>
-<path d="M205.077 380L88.4616 263.385" stroke="#F0F1F9"/>
+<path d="M117.615 467.462L1.00002 350.846" stroke="#F0F1F9"/>
+<path d="M205.077 380L88.4615 263.385" stroke="#F0F1F9"/>
 <path d="M1 350.846L88.4615 263.385" stroke="#F0F1F9"/>
 <path d="M117.615 467.462L205.077 380" stroke="url(#paint10_linear_4_64)"/>
 </g>
 <defs>
-<filter id="filter0_d_4_64" x="667.185" y="321.339" width="96.1686" height="96.1686" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_4_64" x="667.185" y="321.339" width="96.1687" height="96.1686" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="4"/>
