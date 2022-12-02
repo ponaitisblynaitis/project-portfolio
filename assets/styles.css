@@ -2,14 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
     font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: black;
 }
 
 .main{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* header section */
 
 .header{
     width: 100%;
@@ -108,6 +113,8 @@ ul {
     justify-content: center;
 }
 
+/* hero section  */
+
 .hero{
     display: flex;
     align-content: flex-start;
@@ -126,6 +133,13 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.hero_img{
+    position: absolute;
+    right: 130px;
+    top: 200px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .hero_text_2{
@@ -155,4 +169,95 @@ ul {
     line-height: 42px;
     color: white;
     background-image: linear-gradient(to right, #527ce9, #0092e8, #00a2da, #13adc7);
+}
+
+/* projects section */
+
+.projects{
+    width: 100%;
+    color: white;
+    position: relative;
+    z-index: 2;
+    margin: 200px;
+}
+
+.projects span{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.card_1{
+    box-shadow: 0px 0px 16px #FFFFFF;
+    border: 2px solid #fff;
+    border-radius: 50px 0;
+}
+
+.card_1 h2{
+    font-size: 30px;
+}
+
+.card_1 p{
+    font-size: 28px;
+}
+
+.card_1 img{
+    width: 500px;
+    height: 541px;
+}
+
+.card_block{
+    padding: 80px 0;
+    display: flex;
+    gap: 106px;
+    flex-wrap: wrap;
+}
+
+.card{
+    border-radius: 50px 0;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 16px #FFFFFF;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.card h2{
+    padding: 30px;
+    font-weight: 600;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.card p{
+    padding: 30px 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.card img{
+    border-radius: 50px 8px 8px 8px;
+}
+
+.card a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-radius: 25px 25px;
+    width: 210px;
+    height: 60px;
+    background-image: linear-gradient(to right, #945dd6, #527ce9, #0092e8, #00a2da, #13adc7);
+}
+
+.card span{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
